@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HomePage</title>
+    <style>
+      body 
+	  {
+		  background: url(bgimage.jpg);
+          font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+          color: #000;
+      }
+      h1 
+	  {
+          font-weight: 200;
+		  position: absolute;
+		  top: 20%;
+		  left: 37%;
+      }
+	  h2
+	  { 
+		  font-weight: 100;
+		  position: absolute;
+		  top: 30%;
+		  left: 42%;
+	  }
+	  h3
+	  { 
+		  font-weight: 100;
+		  position: absolute;
+		  top: 38%;
+		  left: 39%;
+	  }
+	  #button
+	  {
+		  font-size:18px;
+		  background-color:black;
+		  color:white;
+		  border:2px solid black;
+		  padding:5px;
+	  }
+	  #button:hover
+	  {
+	      background-color:white;
+		  color:black;
+	  }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Welcome to the Bulletin Board</h1>
+      <h2>Click on "Sign Up" to register.</h2><br />
+      <h3>Click on "Log In" if you have already registered.</h3><br />
+      <button type = "button" id="button" onClick = "location.href='Register.php'" style="position: absolute; top: 50%; left: 47%">Sign Up</button>
+      <button type = "button" id="button" onClick = "location.href='Login.php'" style="position: absolute; top: 50%; left: 55%">Log In</button>
+    </center>
+  </body>
+</html>
