@@ -1,6 +1,6 @@
 ###Spider Task 4
 
-This project involves making a bulletin board where users can login or signup to share their posts. Thus it consists of an authentication and authorization system. There are three access levels, namely Visitor,Editor and Admin. A newly signed up user has the access level of Visitor.  
+This project involves making a bulletin board where users can login or signup to share their posts. Thus it consists of an authentication and authorization system. There are three access levels, namely Visitor,Editor and Admin. A newly signed up user has the access level of Viewer.  
 The access rights are as follows:  
 + **Viewer**:Can view posts
 + **Editor** :Can view and add posts
