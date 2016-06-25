@@ -2,7 +2,7 @@
 
 This project involves making a bulletin board where users can login or signup to share their posts. Thus it consists of an authentication and authorization system. There are three access levels, namely Visitor,Editor and Admin. A newly signed up user has the access level of Visitor.  
 The access rights are as follows:  
-+ **Viewerr**:Can view posts
++ **Viewer**:Can view posts
 + **Editor** :Can view and add posts
 + **Admin**  :Can view,add and delete posts. Can view and change access levels of other registered users(except admins). Can moderate the posts of any Editor. By moderation,we mean that the posts made by that particular Editor will not appear on the bulletin board directly. Instead, they will show up in the Admin Panel where the Admin can choose to allow or discard the post.
 
