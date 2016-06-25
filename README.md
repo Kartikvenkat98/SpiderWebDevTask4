@@ -44,7 +44,7 @@ The details about the database and the tables used are as follows :
 )  
 
 + The third table is 'modposts'. The CREATE TABLE command is given below.
-   CREATE TABLE `mods` (  
+   CREATE TABLE `modposts` (  
   `id` int(11) NOT NULL AUTO_INCREMENT, 
   `post` varchar(1000) NOT NULL,  
   `user` varchar(50) NOT NULL,  
