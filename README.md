@@ -31,7 +31,7 @@ The details about the database and the tables used are as follows :
   `level` varchar(10) NOT NULL DEFAULT 'viewer',
   `mod` varchar(10) NOT NULL DEFAULT 'no',  
   PRIMARY KEY (`id`),  
-  UNIQUE KEY `user_name` (`user_name`)  
+  UNIQUE KEY `username` (`username`)  
 )  
 
 + The second table is 'posts'. The CREATE TABLE command is given below.  
